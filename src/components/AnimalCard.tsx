@@ -20,7 +20,7 @@ const AnimalCard: React.FC<IAnimal> = (props) => {
       <p>{props.habitat}</p>
       <p>{props.diet}</p>
       <p>{props.lifespan} years</p>
-      <div>
+      <div className="funFacts">
         {props.funFacts.map((fact, index) => (
           <li key={index} className="funFacts">
             {fact}
