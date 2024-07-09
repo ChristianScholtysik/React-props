@@ -1,0 +1,11 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+}
+.animal-list {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 15px;
+  text-align: center;
+}
