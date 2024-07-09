@@ -1,5 +1,4 @@
 import "./AnimalCard.css";
-import animals from "./Animals";
 
 interface IAnimal {
   name: string;
